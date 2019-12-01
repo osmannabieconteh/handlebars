@@ -6,7 +6,7 @@ CREATE DATABASE football_players_db;
 USE football_players_db;
 
 -- 
-CREATE TABLE footballplayers (
+CREATE TABLE football_players (
   id int NOT NULL AUTO_INCREMENT,
   plan varchar(255) NOT NULL,
   PRIMARY KEY (id)
