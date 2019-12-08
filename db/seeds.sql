@@ -1,4 +1,4 @@
 
-INSERT INTO burgers (name, beefburger) VALUES ('large', true);
-INSERT INTO burgers(name, vegburger) VALUES ('small', true);
+INSERT INTO burger (name, beefburger) VALUES ('large', true);
+INSERT INTO burger(name, vegburger) VALUES ('small', true);
 
