@@ -1,15 +1,13 @@
 
-DROP DATABASE IF EXISTS football_players_db;
+DROP DATABASE IF EXISTS burger_db;
 
-CREATE DATABASE football_players_db;
+CREATE DATABASE burger_db;
 
-USE football_players_db;
+USE burger_db;
 
 -- 
-CREATE TABLE football_players (
+CREATE TABLE burger (
   id int NOT NULL AUTO_INCREMENT,
   plan varchar(255) NOT NULL,
   PRIMARY KEY (id)
 );
-
-INSERT INTO football_players_db (plan) VALUES ('i want to ba a star.');
