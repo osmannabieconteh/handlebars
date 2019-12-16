@@ -20,4 +20,8 @@ li {
  body {
 
   background-image: url("../../image/burger-small.jpg");
+  background-repeat: no-repeat;
+  background-size: 90% 120%;
+  background-attachment: fixed;
+  background-position: center
  }
